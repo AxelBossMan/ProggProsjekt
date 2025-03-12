@@ -12,6 +12,8 @@ app.get('/', function (req, res) {
     res.render('frontend');  
 });
 
+//test 1 
+
 app.get('/logInn', function (req, res) {
     res.render('logInn');
 });
