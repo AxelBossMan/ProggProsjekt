@@ -19,10 +19,13 @@ app.get('/bliKunde', function (req, res) {
     res.render('bliKunde');
 });
 
-
 app.get('/hjemmeside', function (req, res) {
     res.render('hjemmeside');
 });
+
+app.get('/marked', function (req, res) {
+    res.render('marked');
+})
 
 
 
