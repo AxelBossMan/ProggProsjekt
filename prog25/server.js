@@ -29,6 +29,10 @@ app.get('/hjemmeside', function (req, res) {
     res.render('Pages/hjemmeside');
 });
 
+app.get('/marked', function (req, res) {
+    res.render('Pages/marked');
+});
+
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
