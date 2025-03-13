@@ -1,9 +1,11 @@
 #h2 {
-    color: rgb(110, 125, 255);
+    color: rgb(2, 115, 167);
     font-size: 30px;
     margin: 10px;
     display: flex;
     align-items: center;
+    text-decoration: overline underline;
+    text-decoration-color: white;
 }
 
 #hjem {
@@ -14,7 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000;
+    background-color: #000000;
     padding: 0px 20px;
     border-radius: 10px;
 }
@@ -32,7 +34,7 @@
 }
 
 #meny1:hover {
-    color: rgb(110, 125, 255);
+    color: rgb(2, 115, 167);
 }
 
 #menuRight {
@@ -41,14 +43,15 @@
 }
 
 #meny2 {
-    background-color: rgb(76, 74, 74);
+    background-color: rgb(2, 115, 167);
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-left: 20px;
 }
 
 #meny2:hover {
-    background-color: rgb(110, 125, 255);
+    background-color: rgb(2, 115, 167);
 }
+
