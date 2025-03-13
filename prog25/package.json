@@ -16,5 +16,9 @@
     "url": "https://github.com/MarcusGrodem/prog25/issues"
   },
   "homepage": "https://github.com/MarcusGrodem/prog25#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
 }
