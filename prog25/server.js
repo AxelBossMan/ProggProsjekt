@@ -12,6 +12,13 @@ app.get('/', function (req, res) {
     res.render('frontend');  
 });
 
+//test 1 
+//tiss tass
+
+
+//Anders
+
+
 app.get('/logInn', function (req, res) {
     res.render('logInn');
 });
@@ -19,13 +26,10 @@ app.get('/bliKunde', function (req, res) {
     res.render('bliKunde');
 });
 
+
 app.get('/hjemmeside', function (req, res) {
     res.render('hjemmeside');
 });
-
-app.get('/marked', function (req, res) {
-    res.render('marked');
-})
 
 
 
