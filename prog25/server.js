@@ -1,5 +1,9 @@
 const express = require(`express`)
 const app = express()
+const path = require('path');
+
+
+app.set('views', path.join(__dirname, 'views'));
 
 app.use(express.json());
 app.use(express.static('public'));
@@ -9,7 +13,7 @@ app.set('view engine', 'ejs');
 const port = 3000;
 
 app.get('/', function (req, res) {
-    res.render('frontend');  
+    res.render('Partials/frontend');  
 });
 
 
@@ -24,8 +28,6 @@ app.get('/bliKunde', function (req, res) {
 app.get('/hjemmeside', function (req, res) {
     res.render('hjemmeside');
 });
-
-
 
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
