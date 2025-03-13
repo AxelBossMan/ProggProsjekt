@@ -18,15 +18,15 @@ app.get('/', function (req, res) {
 
 
 app.get('/logInn', function (req, res) {
-    res.render('logInn');
+    res.render('Pages/logInn');
 });
 app.get('/bliKunde', function (req, res) {
-    res.render('bliKunde');
+    res.render('Pages/bliKunde');
 });
 
 
 app.get('/hjemmeside', function (req, res) {
-    res.render('hjemmeside');
+    res.render('Pages/hjemmeside');
 });
 
 app.listen(port, () => {
