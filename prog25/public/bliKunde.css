@@ -1,4 +1,4 @@
-.bliKundeSide {
+#bliKundeSide {
     max-width: 400px;
     margin: 50px auto;
     padding: 30px;
@@ -7,12 +7,12 @@
     border-radius: 8px;
 }
 
-.bliKunde p {
+.bliKundeLabel {
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-.bliKunde input {
+.bliKundeInput {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -21,7 +21,7 @@
     font-size: 14px;
 }
 
-.bliKunde button {
+#knapp {
     width: 100%;
     padding: 12px;
     background-color: #3498db;
@@ -32,6 +32,6 @@
     cursor: pointer;
 }
 
-.bliKunde button:hover {
+#knapp:hover {
     background-color: #2980b9;
 }

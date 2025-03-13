@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+#hjem {
+    text-decoration: none;
+}
+
 #topBar {
     display: flex;
     justify-content: space-between;

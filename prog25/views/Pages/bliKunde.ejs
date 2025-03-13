@@ -10,14 +10,21 @@
     <div>
         <%- include(`../Partials/frontend`) %>
     </div>
-    </div>
-    <div id="BliKundeSide">
-        <p class="bliKunde">Email:</p><input class="bliKunde">
-        <p class="bliKunde">Brukernavn:</p><input class="bliKunde">
-        <p class="bliKunde">Passord:</p><input class="bliKunde">
-        <p class="bliKunde">Repeter Passord:</p><input class="bliKunde">
-        <button type="submit"> Registrer </button>
-    </div> 
+    <form action="/registrer" method="POST" id="bliKundeSide">
+            <label for="email" class="bliKundeLabel">Email:</label>
+            <input id="email" class="bliKundeInput" type="email" placeholder="Skriv inn e-post" required>
+    
+            <label for="brukernavn" class="bliKundeLabel">Brukernavn:</label>
+            <input id="brukernavn" class="bliKundeInput" type="text" placeholder="Velg et brukernavn" required>
+    
+            <label for="passord" class="bliKundeLabel">Passord:</label>
+            <input id="passord" class="bliKundeInput" type="password" placeholder="Velg et passord" required>
+    
+            <label for="repeterPassord" class="bliKundeLabel">Repeter Passord:</label>
+            <input id="repeterPassord" class="bliKundeInput" type="password" placeholder="Bekreft passordet ditt" required>
+    
+            <button type="submit" id="knapp">Registrer</button>
+    </form>
 </body>
 </html>
 
