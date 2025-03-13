@@ -12,12 +12,6 @@ app.get('/', function (req, res) {
     res.render('frontend');  
 });
 
-//test 1 
-//tiss tass
-
-//linus
-//Anders
-
 
 app.get('/logInn', function (req, res) {
     res.render('logInn');
