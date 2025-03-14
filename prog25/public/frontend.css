@@ -16,9 +16,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
+    background-color: rgb(56, 56, 56);
     padding: 0px 20px;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #menuLeft {
